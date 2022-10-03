@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+@media (max-width: 480px) {
+  body,
+  th,
+  td,
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 15px;
+  }
+}
+
+/*font*/
+@font-face {
+  font-family: "nanumgothic";
+  font-style: normal;
+  src: url(../font/NanumGothicRegular.eot),
+    url(../font/NanumGothicRegular.eot?#iefix) format("embedded-opentype"),
+    url(../font/NanumGothicRegular.woff2) format("woff2"),
+    url(../font/NanumGothicRegular.woff) format("woff"),
+    url(../font/NanumGothicRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "nanumgothic";
+  font-style: bold;
+  font-weight: bold;
+  src: url(../font/NanumGothicBold.eot),
+    url(../font/NanumGothicBold.eot?#iefix) format("embedded-opentype"),
+    url(../font/NanumGothicBold.woff2) format("woff2"),
+    url(../font/NanumGothicBold.woff) format("woff"),
+    url(../font/NanumGothicBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "nanumgothic_l";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/NanumGothicExtraBold.eot),
+    url(../font/NanumGothicExtraBold.eot?#iefix) format("embedded-opentype"),
+    url(../font/NanumGothicExtraBold.woff2) format("woff2"),
+    url(../font/NanumGothicExtraBold.woff) format("woff"),
+    url(../font/NanumGothicExtraBold.ttf) format("truetype");
+}
+
+/* reset */
+*,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+details,
+menu,
+figure,
+figcaption {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset,
+img {
+  border: 0 none;
+}
+
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+input,
+select,
+textarea,
+button {
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* 뷰표트 변환시 폰트크기 자동확대 방지 */
+body {
+  -webkit-text-size-adjust: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+input:checked[type="checkbox"] {
+  background-color: #666;
+  -webkit-appearance: checkbox;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="file"] {
+  border: 0;
+  outline: none;
+}
+
+button,
+input[type="button"] {
+  cursor: pointer;
+}
+
+button:active {
+  outline: none;
+  text-indent: 0;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+body {
+  background: #fff;
+  -webkit-overflow-scrolling: touch;
+}
+
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "nanumgothic", "나눔고딕", "Malgun Gothic", "맑은 고딕",
+    sans-serif;
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* a:active,
+a:hover {
+  text-decoration: none;
+} */
+
+/* address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+  font-weight: normal;
+} */
+
+/* global */
+/* .f_l {
+  float: left;
+}
+.f_r {
+  float: right;
+}
+.tr {
+  text-align: right;
+}
+.tl {
+  text-align: left;
+}
+.tc {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+
+.clear:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  content: "";
+} */
+
+/* line */
+/* 텍스트형 구분라인 */
+/* .txt_bar {
+  font-size: 12px;
+  color: #b6b6b6;
+} */
+
+/* Background Image - common 요소 */
+/* .btn_comm {
+  background: url() no-repeat;
+} 버튼 */
+/* .ico_comm {
+  background: url() no-repeat;
+} 아이콘 */
+/* .tit_comm {
+  background: url() no-repeat;
+} 타이틀 */
+/* .line_comm {
+  background: url() no-repeat;
+} 라인 */
+
+/* .ellipsis span {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+} */
+
+/*color*/
+/* .c_blue {
+  color: #0666c7;
+} */
+
+/* @media (max-width: 1024px) {
+  .pc_only {
+    display: none;
+  }
+} */
