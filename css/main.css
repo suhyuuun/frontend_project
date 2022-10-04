@@ -18,6 +18,7 @@
   clear: both;
   content: "";
 }
+
 .header_wrap h1 {
   float: left;
   padding-top: 18px;
@@ -28,6 +29,7 @@
   height: 80px;
   margin-left: 78px;
 }
+
 .header_wrap .gnb_item {
   float: left;
   position: relative;
@@ -79,7 +81,7 @@
   padding: 6px 0;
   font-size: 15px;
   font-weight: bold;
-} 
+}
 
 .header_wrap .gnb .gnb_over li a:hover {
   color: #3063be;
